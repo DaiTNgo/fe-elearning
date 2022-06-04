@@ -1,0 +1,11 @@
+.sponsor-wrapper {
+  filter: invert(100%);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 4rem 2rem;
+  align-items: center;
+  justify-items: center;
+
+  max-width: 80%;
+  margin: 6rem auto 8rem;
+}

@@ -1,0 +1,39 @@
+.certificates-wrapper {
+  --deg-rotate: -10deg;
+  position: relative;
+
+  &:hover {
+    .certificate-1 {
+      transform: translate(-30px, 0px) skewX(var(--deg-rotate))
+        rotateZ(var(--deg-rotate)) scaleX(0.9);
+      &:hover {
+        transform: translate(-30px, 0px) skewX(var(--deg-rotate))
+          rotateZ(var(--deg-rotate)) scaleX(0.9) translateY(-40px);
+      }
+    }
+    .certificate-2 {
+      transform: translate(-100px, -10px) skewX(var(--deg-rotate))
+        rotateZ(var(--deg-rotate)) scaleX(0.9);
+      &:hover {
+        transform: translate(-100px, -10px) skewX(var(--deg-rotate))
+          rotateZ(var(--deg-rotate)) scaleX(0.9) translateY(-40px);
+      }
+    }
+    .certificate-3 {
+      transform: translate(-50px, -20px) skewX(var(--deg-rotate))
+        rotateZ(var(--deg-rotate)) scaleX(0.9);
+      &:hover {
+        transform: translate(-50px, -20px) skewX(var(--deg-rotate))
+          rotateZ(var(--deg-rotate)) scaleX(0.9) translateY(-40px);
+      }
+    }
+    .certificate-4 {
+      transform: translate(-0px, -30px) skewX(var(--deg-rotate))
+        rotateZ(var(--deg-rotate)) scaleX(0.9);
+      &:hover {
+        transform: translate(-0px, -30px) skewX(var(--deg-rotate))
+          rotateZ(var(--deg-rotate)) scaleX(0.9) translateY(-40px);
+      }
+    }
+  }
+}

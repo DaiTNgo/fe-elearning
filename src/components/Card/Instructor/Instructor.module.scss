@@ -1,0 +1,19 @@
+.card-wrapper {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.card-title {
+  margin: 0;
+}
+
+.wrapper-icon {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
