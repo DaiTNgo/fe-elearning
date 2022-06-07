@@ -1,4 +1,4 @@
-export const PATH_IMG = '/src/assets/images';
+export const PATH_IMG = '';
 export const LIST_MENU_MOBI = [
   {
     icon: 'courses',
