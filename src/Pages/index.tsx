@@ -19,7 +19,7 @@ function Home() {
     (() => {
       axiosCourse({
         method: 'get',
-        url: '/',
+        url: '',
       })
         .then((resp) => {
           if (!here) {
